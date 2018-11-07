@@ -1,4 +1,7 @@
-group '1'
+plugins {
+    id "org.sonarqube" version "2.6"
+}
+group 'TEST'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
